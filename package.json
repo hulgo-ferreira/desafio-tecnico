@@ -1,0 +1,22 @@
+{
+  "name": "star-wars",
+  "version": "1.0.0",
+  "description": "Projeto de testes de API do Star Wars",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "api",
+    "star",
+    "wars"
+  ],
+  "author": "Hulgo Rafael",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.1",
+    "cypress-plugin-api": "^2.11.1",
+    "moment": "^2.29.4"
+  }
+}
